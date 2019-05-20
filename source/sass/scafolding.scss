@@ -1,27 +1,72 @@
-/*@font-face {
-  font-weight: 400;
-  font-family: "Open Sans";
+@font-face {
+  font-weight: normal;
+  font-family: "Besom";
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/opensans.woff2") format("woff2"), url("../fonts/opensans.woff") format("woff");
+  src: url("../fonts/Besom.woff2") format("woff2"), url("../fonts/besom-free-font-webfont.woff") format("woff");
 }
 
 @font-face {
-  font-weight: 700;
-  font-family: "Source Serif";
+  font-weight: normal;
+  font-family: "Core Sans E -35 Light", "Arial", "Helvetica CY", "Nimbus Sans L", sans-serif;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/SourceSerifPro-Bold.ttf.woff2") format("woff2"), url("../fonts/SourceSerifPro-Bold.ttf.woff") format("woff");
-}*/
+  src: url("../fonts/CoreSansE-35Light.woff2") format("woff2"), url("../fonts/CoreSansE-35Light.woff") format("woff");
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: "Core Sans E -35 Light It", "Arial", "Helvetica CY", "Nimbus Sans L", sans-serif;
+  font-style: italic;
+  font-display: swap;
+  src: url("../fonts/CoreSansE-35LightIt.woff2 format") format("woff2"), url("../fonts/CoreSansE-35LightIt.woff") format("woff");
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: "Core Sans E -45 Regular", "Arial", "Helvetica CY", "Nimbus Sans L", sans-serif;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/CoreSansE-45Regular.woff2") format("woff2"), url("../fonts/CoreSansE-45Regular.woff") format("woff");
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: "Core Sans E -55 Medium", "Arial", "Helvetica CY", "Nimbus Sans L", sans-serif;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/CoreSansE-55Medium.woff2") format("woff2"), url("../fonts/CoreSansE-55Medium.woff") format("woff");
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: "Core Sans E -65 Bold", "Arial", "Helvetica CY", "Nimbus Sans L", sans-serif;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/CoreSansE-65Bold.woff2") format("woff2"), url("../fonts/CoreSansE-65Bold.woff") format("woff");
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: "Core Sans E -85 Heavy", "Arial", "Helvetica CY", "Nimbus Sans L", sans-serif;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/CoreSansE-85Heavy.woff2") format("woff2"), url("../fonts/CoreSansE-85Heavy.woff") format("woff");
+}
+
+@font-face {
+  font-weight:normal;
+  font-family: "Core Sans E -95 Black", "Arial Black", "Helvetica CY", "Nimbus Sans L", sans-serif;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/CoreSansE-95Black.woff2") format("woff2"), url("../fonts/CoreSansE-95Black.woff") format("woff");
+}
 
 body {
   margin: 0 auto;
   min-width: 320px;
   max-width: 1150px;
-  //outline: 1px solid black;
-  font-size: 15px;
-  font-family: "Open Sans", "Arial", sans-serif;
-  color: #444444;
+  outline: 1px solid black;
   font-style: normal;
 }
 
