@@ -1,0 +1,13 @@
+.button {
+  width: 307px;
+  height: 73px;
+  margin: 0;
+  padding: 0;
+  background-color: #ff0000;
+  background: url("../image/button-bg.png") no-repeat center center;
+
+  &:hover,
+  &:active {
+    background: url("../image/button-bg-hov.png") no-repeat center center;
+  }
+}
