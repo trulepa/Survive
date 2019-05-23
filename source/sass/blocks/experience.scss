@@ -1,7 +1,7 @@
 .experience {
   display: flex;
   flex-direction: column;
-  //align-items: center;
+  width: 100%;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -29,7 +29,6 @@
   color: $grey;
   font-family: $CS-45_Regular;
   font-size: 16px;
-  text-align: center;
   font-weight: 400;
   line-height: 24px;
 }
@@ -37,30 +36,84 @@
 @media (max-width: $mobile) {
   .experience__item {
     margin-bottom: 50px;
-    padding: 0 15px;
-    
+
     &:nth-child(1) {
       padding-top: 237px;
-      background: url("../image/exp-bg_1.png") no-repeat top center;
+      background: url("../image/exp-bg1_320.png") no-repeat top center;
     }
 
     &:nth-child(2) {
-      padding-top: 243px;
-      background: url("../image/exp-bg_2.png") no-repeat top center;
+      padding-top: 245px;
+      background: url("../image/exp-bg2_320.png") no-repeat top center;
     }
 
     &:nth-child(3) {
-      padding-top: 333px;
-      background: url("../image/exp-bg_3.png") no-repeat top center;
+      padding-top: 328px;
+      background: url("../image/exp-bg3_320.png") no-repeat top center;
     }
 
     &:nth-child(4) {
       padding-top: 241px;
-      background: url("../image/exp-bg_4.png") no-repeat top center;
+      background: url("../image/exp-bg4_320.png") no-repeat top center;
     }
   }
 
   .experience__title {
-    margin: 20px 0;
+    margin: 14px 0;
+  }
+
+  .experience__description {
+    text-align: center;
+  }
+}
+
+@media (min-width: $tablet) {
+  .experience__item {
+    align-items: flex-start;
+
+    &:nth-child(1) {
+      padding: 60px 0 80px 321px;
+      background: url(../image/exp-bg1_750.png) no-repeat;
+      background-position: 2px -2px;
+
+      &>.experience__description {
+        width: 297px;
+        margin-top: 14px;
+      }
+    }
+
+    &:nth-child(2) {
+      padding: 75px 0 68px 131px;
+      background: url(../image/exp-bg2_750.png) no-repeat;
+      background-position: 444px 10px;
+
+      &>.experience__description {
+        width: 268px;
+        margin-top: 14px;
+      }
+    }
+
+    &:nth-child(3) {
+      padding: 55px 0 89px 320px;
+      background: url(../image/exp-bg3_750.png) no-repeat;
+      background-position: -15px -5px;
+
+      &>.experience__description {
+        width: 310px;
+        margin-top: 14px;
+      }
+    }
+
+    &:nth-child(4) {
+      margin-top: -36px;
+      padding: 285px 0 0 444px;
+      background: url(../image/exp-bg4_750.png) no-repeat;
+      background-position: 392px 0px;
+    }
+
+    &>.experience__description {
+      width: 270px;
+      margin-top: 14px;
+    }
   }
 }
