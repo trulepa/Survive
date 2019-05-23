@@ -1,3 +1,39 @@
 .gives {
-background: url("../image/gives-bg.png") no-repeat top center;
- }
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
+  background: url("../image/gives-bg.png") no-repeat top center;
+}
+
+.gives__yes-title {
+  position: absolute;
+  top: 164px;
+  left: 57px;
+  margin: 0;
+  color: $white;
+  font-family: "CS-95_Black";
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  /* Text style for "Что даёт" */
+  letter-spacing: 1.82px;
+  width: 70%;
+}
+
+.gives__no-title {
+  width: 290px;
+  min-height: 116px;
+  margin: 0 auto;
+  padding: 19px 0 0 5px;
+  background: url("../image/will-not!.png") no-repeat;
+  background-position: 175px 0;
+  color: #fefefe;
+  font-family: "CS-95_Black";
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  /* Text style for "Что даёт" */
+  letter-spacing: 1.82px;
+}

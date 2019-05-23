@@ -34,19 +34,25 @@
 
 <body>
 
-  <header class="page-header page-header__container">
+  <header class="page-header page-header--container">
+    <picture>
+      <source media="(min-width:1170px)" srcset="image/sparta_logo1170.png">
+      <source media="(min-width:750px)" srcset="image/sparta_logo750.png">
+      <img class="page-header__logo" src="image/sparta_logo320.png" alt="Sparta-logo">
+    </picture>
 
-    <img class="page-header__logo" src="image/sparta_logo.svg" alt="Sparta-logo">
     <span class="page-header__phone">+7 (930) 415 02 52</span>
     <span class="page-header__title">спецкурс</span>
-    <h1 class="page-header__main-title">Выжить</h1>
-    <h2 class="page-header__slogan">любой ценой</h2>
-    <ul class="page-header__list">
-      <li class="page-header__list-item">пт</li>
-      <li class="page-header__list-item">сб</li>
-      <li class="page-header__list-item">вс</li>
-    </ul>
-    <p class="page-header__text">3 дня с утра до вечера</p>
+    <div class="page-header__content">
+      <h1 class="page-header__main-title">Выжить</h1>
+      <h2 class="page-header__slogan">любой ценой</h2>
+      <ul class="page-header__list">
+        <li class="page-header__list-item">пт</li>
+        <li class="page-header__list-item">сб</li>
+        <li class="page-header__list-item">вс</li>
+      </ul>
+      <p class="page-header__text">3 дня с утра до вечера</p>
+    </div>
     <a class="button page-header__link" href="#">Рискнуть</a>
 
   </header>
@@ -92,25 +98,28 @@
 
     <section class="gives">
 
-      <h2 class="gives__title">Что даёт наш спец-курс</h2>
+      <h2 class="gives__yes-title">Что даёт наш спец-курс</h2>
       <ul class="gives-list">
         <li class="gives-list__item">
           <span class="gives-list__number">01</span>
           <h3 class="gives-list__title">Базовые знания</h3>
-          <p class="gives-list__description">Вы научитесь не допускать и предотвращать попадание человека в опасные ситуации на природе и в городе</p>
+          <p class="gives-list__description">Вы научитесь не допускать и предотвращать попадание человека в опасные
+            ситуации на природе и в городе</p>
         </li>
         <li class="gives-list__item">
           <span class="gives-list__number">02</span>
           <h3 class="gives-list__title">Важные навыки</h3>
-          <p class="gives-list__description">Получите не только все базовые знания, но и навыки, которые могут спасти жизнь и здоровье, как своё, так и
+          <p class="gives-list__description">Получите не только все базовые знания, но и навыки, которые могут спасти
+            жизнь и здоровье, как своё, так и
             родных, близких и людей вокруг</p>
         </li>
       </ul>
-      <h2 class="gives__title">Чего не будет</h2>
+      <h2 class="gives__no-title">Чего не будет</h2>
       <ul class="will-be-not">
         <li class="will-be-not__item">
           <h3 class="will-be-not__title">Нет скуке!</h3>
-          <p class="will-be-not__description">Не будет скучной и нудной теории. Курс состоит на 80% из практики и только на 20% из теории!</p>
+          <p class="will-be-not__description">Не будет скучной и нудной теории. Курс состоит на 80% из практики и только
+            на 20% из теории!</p>
         </li>
         <li class="will-be-not__item">
           <h3 class="will-be-not__title">И вакханалиям</h3>
