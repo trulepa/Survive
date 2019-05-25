@@ -29,7 +29,7 @@
   font-family: $CS-35_Light;
   font-size: 24px;
   font-weight: 400;
-    line-height: 24px;
+  line-height: 24px;
 
   &::before {
     position: absolute;
@@ -73,7 +73,7 @@
   }
 
   .preview__finish {
-    margin: 37px 0 22px 0px;
+    margin: 37px 0 22px 0;
 
     &::before {
       top: -34px;
@@ -156,7 +156,7 @@
     line-height: 130px;
     text-align: center;
     letter-spacing: 6.5px;
-    margin: 60px 0 0 0px;
+    margin: 60px 0 0 0;
   }
 
   .preview__title {

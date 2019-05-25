@@ -58,7 +58,7 @@
   justify-content: space-between;
   width: 205px;
   min-height: 40px;
-  margin: 31px 0 0 0px;
+  margin: 31px 0 0 0;
   padding: 0 10px 0 9px;
   color: #1b1916;
   font-family: $CS-95_Black;
@@ -149,7 +149,7 @@
     background-image: url("../image/header-bg750.jpg");
     background-repeat: no-repeat;
     background-size: 1316px auto;
-    background-position: -161px 0px;
+    background-position: -161px 0;
   }
 
   .page-header__phone {
@@ -257,7 +257,7 @@
     margin: 34px 0 0 8px;
   }
 
-  .page-header__text  {
+  .page-header__text {
     top: -35px;
     left: 246px;
   }

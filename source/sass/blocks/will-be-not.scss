@@ -26,7 +26,67 @@
 
   .will-be-not__item {
     margin-bottom: 37px;
-    padding-left: 23px;
+    padding-left: 2px;
+  }
+
+  .will-be-not__title {
+    margin-bottom: 14px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1px;
+  }
+
+  .will-be-not__description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .will-be-not {
+    align-self: flex-end;
+    width: 297px;
+    margin: 66px 18px 0 0;
+  }
+
+  .will-be-not__item {
+    margin-bottom: 37px;
+    padding-left: 2px;
+  }
+
+  .will-be-not__title {
+    margin-bottom: 14px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1px;
+  }
+
+  .will-be-not__description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .will-be-not {
+    align-self: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    width: 670px;
+    margin: 103px 46px 0 0;
+  }
+
+  .will-be-not__item {
+    padding-left: 2px;
+
+    &:first-child {
+      width: 354px;
+      margin-right: 83px;
+    }
+
+    &:last-child {
+      width: 232px;
+    }
   }
 
   .will-be-not__title {
