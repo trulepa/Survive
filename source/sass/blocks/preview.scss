@@ -175,6 +175,64 @@
   .preview {
     min-height: 1560px;
     background: url("../image/preview-bg1170.png") no-repeat;
-    background-position: 129px 235px;
+    background-position: 154px 290px;
+  }
+
+  .preview--container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .preview__start {
+    position: relative;
+    margin: 0;
+    right: 297px;
+    top: 73px;
+
+    &::before {
+      top: 43px;
+      left: 17px;
+    }
+
+    &::after {
+      top: 48px;
+      left: 22px;
+    }
+  }
+
+  .preview__finish {
+    bottom: 85px;
+    left: -317px;
+
+    &::before {
+      top: -34px;
+      left: 20px;
+    }
+
+    &::after {
+      top: -29px;
+      left: 25px;
+    }
+  }
+
+  .preview__text {
+    width: 1002px;
+    font-size: 180px;
+    line-height: 180px;
+    text-align: center;
+    letter-spacing: 9px;
+    margin: 76px 0 0 3px;
+  }
+
+  .preview__title {
+    top: 118px;
+    left: calc((100% - 530px) / 2);
+    width: 530px;
+    margin: 0;
+    font-size: 68px;
+    line-height: 68px;
+    text-align: center;
+    letter-spacing: 3.4px;
   }
 }

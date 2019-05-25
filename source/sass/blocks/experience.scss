@@ -117,3 +117,56 @@
     }
   }
 }
+
+@media (min-width: $desktop) {
+  .experience__item {
+    align-items: flex-start;
+
+    &:nth-child(1) {
+      padding: 150px 0 80px 415px;
+    background: url(../image/exp-bg1_1170.png) no-repeat;
+    background-position: 23px 41px;
+
+      &>.experience__description {
+        width: 297px;
+        margin-top: 14px;
+      }
+    }
+
+    &:nth-child(2) {
+      margin-top: -38px;
+    padding: 103px 0 100px 857px;
+    background: url(../image/exp-bg2_1170.png) no-repeat;
+    background-position: 465px 0;
+
+      &>.experience__description {
+        width: 268px;
+        margin-top: 14px;
+      }
+    }
+
+    &:nth-child(3) {
+      margin-top: -64px;
+    padding: 80px 0 121px 355px;
+    background: url(../image/exp-bg3_1170.png) no-repeat;
+    background-position: -35px 0;
+
+      &>.experience__description {
+        width: 310px;
+        margin-top: 14px;
+      }
+    }
+
+    &:nth-child(4) {
+      margin-top: -86px;
+    padding: 63px 0 120px 868px;
+    background: url(../image/exp-bg4_1170.png) no-repeat;
+    background-position: 451px 0px;
+    }
+
+    &>.experience__description {
+      width: 270px;
+      margin-top: 14px;
+    }
+  }
+}
