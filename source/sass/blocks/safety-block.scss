@@ -6,7 +6,6 @@
 
 .safety-block__item {
   display: flex;
-
 }
 
 .safety-block__number {
@@ -59,11 +58,9 @@
     width: 1127px;
     padding: 89px 0 0 20px;
     background: url("../../image/city_750.png") no-repeat 12px 13px;
-
   }
 
   .safety-block__item {
-
     width: 186px;
 
     &:nth-child(1) {
@@ -71,7 +68,7 @@
       position: relative;
       left: -19px;
 
-      &>.safety-block__number {
+      & > .safety-block__number {
         top: -62px;
         left: -198px;
       }
@@ -80,7 +77,7 @@
     &:nth-child(2) {
       order: 3;
 
-      &>.safety-block__number {
+      & > .safety-block__number {
         top: 27px;
         left: 245px;
       }
@@ -89,7 +86,7 @@
     &:nth-child(3) {
       order: 4;
 
-      &>.safety-block__number {
+      & > .safety-block__number {
         top: 27px;
         left: 495px;
       }
@@ -100,7 +97,7 @@
       position: relative;
       right: -58px;
 
-      &>.safety-block__number {
+      & > .safety-block__number {
         top: -62px;
         left: -277px;
       }
@@ -109,7 +106,7 @@
     &:nth-child(5) {
       order: 1;
 
-      &>.safety-block__number {
+      & > .safety-block__number {
         top: 27px;
         left: 1012px;
       }
