@@ -114,8 +114,8 @@
 
   .gives__yes-desktop {
     display: block;
-    align-self: flex-start;
-    margin: 117px 0 0 73px;
+    top: 324px;
+    left: calc(((100% - 1140px) / 2) + 73px);
     width: 280px;
     font-size: 36px;
     line-height: 43px;

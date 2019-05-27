@@ -1,0 +1,77 @@
+.skill {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.skill__text {
+  opacity: 0.1;
+  color: #32383f;
+  font-family: $Besom;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.skill__title {
+  position: absolute;
+  color: $red;
+  font-family: $CS-95_Black;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+@media (max-width: $mobile) {
+  .skill {
+    background: url("../../image/skill-bg_320.png") no-repeat, url("../../image/skill-txt_320.png") no-repeat, $white;
+    background-position: calc(((100% - 320px) / 2) + 11px) 138px, calc(((100% - 320px) / 2) + 18px) 255px;
+  }
+
+  .skil--container {
+    min-height: 951px;
+    padding-left: calc((100% - 320px) / 2);
+    padding-right: calc((100% - 320px) / 2);
+  }
+
+  .skill__text {
+    margin: 65px 0 0 15px;
+    width: 656px;
+    font-size: 100px;
+    line-height: 103px;
+    text-align: center;
+    letter-spacing: 5px;
+  }
+
+  .skill__title {
+    top: 41px;
+    left: calc((100% - 274px) / 2);
+    width: 280px;
+    margin: 0;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 1.8px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .skill__text {
+    margin: 81px 0 0 11px;
+    width: 788px;
+    text-align: center;
+    font-size: 120px;
+    line-height: 88px;
+    letter-spacing: 6px;
+  }
+
+  .skill__title {
+    top: 83px;
+    left: calc((100% - 654px) / 2);
+    width: 654px;
+    margin: 0;
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: 2.4px;
+  }
+}
