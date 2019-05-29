@@ -7,12 +7,8 @@
 }
 
 .city__title {
-  margin: 0;
-  color: $red;
-  font-family: $CS-95_Black;
-  font-weight: 400;
-  text-transform: uppercase;
-  text-align: center;
+  @extend %header-title;
+  position: static;
 }
 
 @media (max-width: $mobile) {
