@@ -26,7 +26,7 @@
 
 @media (max-width: $mobile) {
   .info-list {
-    padding: 55px 15px 0px 135px;
+    padding: 55px 15px 0 135px;
   }
 
   .info-list__item {
@@ -50,8 +50,8 @@
   .info-list {
     flex-wrap: wrap;
     width: 100%;
-    height: 350px;
-    padding: 50px 70px 0px 140px;
+    height: 342px;
+    padding: 50px 70px 0 140px;
   }
 
   .info-list__item {
@@ -90,7 +90,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    padding: 167px 60px 0px 31px;
+    padding: 167px 60px 0 31px;
   }
 
   .info-list__item {
