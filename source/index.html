@@ -23,7 +23,6 @@
   <link rel="preload" href="fonts/CoreSansE-95Black.woff2" as="font" crossorigin="anonymous">
   <link rel="preload" href="fonts/CoreSansE-95Black.woff" as="font" crossorigin="anonymous">
 
-
   <script>
     // Picture element HTML5 shiv
     document.createElement("picture");
@@ -278,7 +277,64 @@
 
     <div class="photo"></div>
 
-    <section class="instructor"></section>
+    <section class="instructor instructor--container">
+
+      <span class="instructor__text">Инструктор</span>
+      <h2 class="instructor__title">Инструктор</h2>
+      <picture class="instructor__photo">
+        <source media="(min-width: 1170px)" srcset="image/instructor-photo_1170.png">
+        <img src="image/instructor-photo_320.png" alt="instructor-photo">
+      </picture>
+      <span class="instructor__name">Роман Попков</span>
+      <ul class="achievements-list">
+        <li class="achievements-list__item">
+          <p class="achievements-list__description">Альпинист</p>
+        </li>
+        <li class="achievements-list__item">
+          <p class="achievements-list__description">
+            8 восхождений на Эльбрус (Западная
+            и&nbsp;Восточная вершины), восхождение
+            на&nbsp;Монблан. Неоднократно принимал участие
+            в&nbsp;спасательных работах в горах. Спас двоих человек на вершине Эльбруса в снежную бурю
+          </p>
+        </li>
+        <li class="achievements-list__item">
+          <p class="achievements-list__description">Обучался у военных, горных и инструкторов по&nbsp;туризму</p>
+        </li>
+        <li class="achievements-list__item">
+          <p class="achievements-list__description">Обучался в центре подготовки спасателей</p>
+        </li>
+        <li class="achievements-list__item">
+          <p class="achievements-list__description">Инструктор по первой помощи
+            по программе Красного Креста</p>
+        </li>
+        <li class="achievements-list__item">
+          <p class="achievements-list__description">Обучение и подготовка в Центре медицины катастроф</p>
+        </li>
+        <li class="achievements-list__item">
+          <p class="achievements-list__description">Дайвер</p>
+        </li>
+      </ul>
+      <ul class="info-list">
+        <li class="info-list__item">
+          <span class="info-list__number">27</span>
+          <p class="info-list__description">Спарт провел в качестве капитана</p>
+        </li>
+        <li class="info-list__item">
+          <span class="info-list__number">28</span>
+          <p class="info-list__description">прыжков с веревкой (Rope Jumping)</p>
+        </li>
+        <li class="info-list__item">
+          <span class="info-list__number">05</span>
+          <p class="info-list__description">Спарт организовал (максимальный поток 68 чел.)</p>
+        </li>
+        <li class="info-list__item">
+          <span class="info-list__number">35</span>
+          <p class="info-list__description">боёв в Бойцовском Клубе</p>
+        </li>
+      </ul>
+
+    </section>
 
     <section class="reviews"></section>
 
