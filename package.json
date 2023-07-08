@@ -24,7 +24,7 @@
     "npx": "^10.2.0",
     "posthtml-include": "^1.2.0",
     "readable-stream": "^3.3.0",
-    "stylelint": "9.10.x",
+    "stylelint": "15.10.x",
     "stylelint-config-htmlacademy": "0.1.x"
   },
   "scripts": {
